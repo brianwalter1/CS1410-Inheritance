@@ -19,6 +19,8 @@ public:
 
 class countDown : public counter{
 public:
+    countDown();
+    countDown(unsigned int count);
     counter operator --();
 };
 
